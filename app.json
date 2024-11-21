@@ -3,6 +3,8 @@
     "name": "MedTracker",
     "slug": "MedTracker",
     "version": "1.0.1",
+    "sdkVersion": "52.0.0",
+    "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
     "icon": "./assets/mt_icon.png",
     "userInterfaceStyle": "light",
@@ -22,14 +24,17 @@
       "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/mt_icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+           "userInterfaceStyle": "dark"
       },
       "package": "com.mediaone.MedTracker",
       "permissions": [
         "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION",
         "android.permission.FOREGROUND_SERVICE"
-      ]
+      ],
+      "sdkVersion": "51.0.28",
+      "apiLevel": 35
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -61,3 +66,4 @@
     }
   }
 }
+
